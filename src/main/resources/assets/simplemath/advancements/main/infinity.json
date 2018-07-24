@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "simplemath:pi"
+        },
+        "title": {
+            "translate": "advancements.main.infinity.title"
+        },
+        "description": {
+            "translate": "advancements.main.infinity.description"
+        },
+		"frame": "challenge",
+		"hidden": true
+    },
+    "parent": "simplemath:main/unknown_variable",
+    "criteria": {
+        "pi": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "simplemath:pi",
+				"location": {
+					"dimension": "the_end"
+				}
+            }
+        }
+    }
+}

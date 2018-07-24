@@ -1,0 +1,59 @@
+{
+    "display": {
+        "icon": {
+            "item": "simplemath:xnor_block"
+        },
+        "title": {
+            "translate": "advancements.main.logic_master.title"
+        },
+        "description": {
+            "translate": "advancements.main.logic_master.description"
+        },
+		"frame": "goal"
+    },
+    "parent": "simplemath:main/binary",
+    "criteria": {
+        "not_block": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "simplemath:not_block"
+            }
+        },
+		"and_block": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "simplemath:and_block"
+            }
+        },
+		"or_block": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "simplemath:or_block"
+            }
+        },
+		"xor_block": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "simplemath:xor_block"
+            }
+        },
+		"nand_block": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "simplemath:nand_block"
+            }
+        },
+		"nor_block": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "simplemath:nor_block"
+            }
+        },
+		"xnor_block": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "simplemath:xnor_block"
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "simplemath:output_block"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "minecraft:dye",
+        "data": 6,
+        "count": 9
+    }
+}

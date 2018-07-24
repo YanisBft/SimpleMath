@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "WWW",
+        "WTW",
+        "WWW"
+    ],
+    
+    "key":
+    {
+        "T":
+        {
+            "item": "simplemath:times"
+        },
+        
+        "W":
+        {
+            "item": "minecraft:dye",
+            "data": 15
+        }
+    },
+    
+    "result":
+    {
+        "item": "simplemath:multiplication",
+        "count": 1
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "WWW",
+        "WRW",
+        "WWW"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "simplemath:radical"
+        },
+        
+        "W":
+        {
+            "item": "minecraft:dye",
+            "data": 15
+        }
+    },
+    
+    "result":
+    {
+        "item": "simplemath:square_root",
+        "count": 1
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "simplemath:not"
+        },
+		"title": {
+            "translate": "advancements.main.binary.title"
+        },
+        "description": {
+            "translate": "advancements.main.binary.description"
+        }
+    },
+    "parent": "simplemath:main/root",
+    "criteria": {
+        "not": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "simplemath:not"
+                    }
+                ]
+            }
+        }		
+    }
+}

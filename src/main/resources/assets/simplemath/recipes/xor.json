@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " Y ",
+        "YYY",
+        " Y "
+    ],
+    
+    "key":
+    {
+        "Y":
+        {
+            "item": "minecraft:dye",
+            "data": 11
+        }
+    },
+    
+    "result":
+    {
+        "item": "simplemath:xor",
+        "count": 1
+    }
+}

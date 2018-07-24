@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "  B",
+        " B ",
+        "B  "
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "minecraft:dye",
+            "data": 4
+        }
+    },
+    
+    "result":
+    {
+        "item": "simplemath:divided",
+        "count": 1
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " R ",
+        "RRR",
+        " R "
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "minecraft:dye",
+            "data": 1
+        }
+    },
+    
+    "result":
+    {
+        "item": "simplemath:plus",
+        "count": 1
+    }
+}

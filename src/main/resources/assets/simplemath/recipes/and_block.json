@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "WWW",
+        "BAB",
+        "WWW"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "simplemath:and"
+        },
+        
+        "W":
+        {
+            "item": "minecraft:dye",
+            "data": 15
+        },
+        
+        "B":
+        {
+            "item": "minecraft:dye",
+            "data": 0
+        }
+    },
+    
+    "result":
+    {
+        "item": "simplemath:and_block",
+        "count": 1
+    }
+}

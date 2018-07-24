@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "WWW",
+        "BXB",
+        "WWW"
+    ],
+    
+    "key":
+    {
+        "X":
+        {
+            "item": "simplemath:xor"
+        },
+        
+        "W":
+        {
+            "item": "minecraft:dye",
+            "data": 15
+        },
+        
+        "B":
+        {
+            "item": "minecraft:dye",
+            "data": 0
+        }
+    },
+    
+    "result":
+    {
+        "item": "simplemath:xor_block",
+        "count": 1
+    }
+}

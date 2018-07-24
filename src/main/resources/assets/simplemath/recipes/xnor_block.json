@@ -1,0 +1,22 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "simplemath:not_block"
+    },
+    
+    {
+      "item": "simplemath:xor_block"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "simplemath:xnor_block",
+        "count": 2
+    }
+}

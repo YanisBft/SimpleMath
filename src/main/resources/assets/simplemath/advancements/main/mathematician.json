@@ -1,0 +1,77 @@
+{
+    "display": {
+        "icon": {
+            "item": "simplemath:equality"
+        },
+        "title": {
+            "translate": "advancements.main.mathematician.title"
+        },
+        "description": {
+            "translate": "advancements.main.mathematician.description"
+        },
+		"frame": "goal"
+    },
+    "parent": "simplemath:main/basic_operation",
+    "criteria": {
+        "addition": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "simplemath:addition"
+                    }
+                ]
+            }
+        },
+		"subtraction": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "simplemath:subtraction"
+                    }
+                ]
+            }
+        },
+		"multiplication": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "simplemath:multiplication"
+                    }
+                ]
+            }
+        },
+		"division": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "simplemath:division"
+                    }
+                ]
+            }
+        },
+		"square_root": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "simplemath:square_root"
+                    }
+                ]
+            }
+        },
+		"equality": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "simplemath:equality"
+                    }
+                ]
+            }
+        }
+    }
+}	

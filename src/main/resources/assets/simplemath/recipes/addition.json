@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "WWW",
+        "WPW",
+        "WWW"
+    ],
+    
+    "key":
+    {
+        "P":
+        {
+            "item": "simplemath:plus"
+        },
+        
+        "W":
+        {
+            "item": "minecraft:dye",
+            "data": 15
+        }
+    },
+    
+    "result":
+    {
+        "item": "simplemath:addition",
+        "count": 1
+    }
+}

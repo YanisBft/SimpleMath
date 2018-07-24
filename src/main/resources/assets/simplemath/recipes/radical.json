@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " PP",
+        "PP ",
+        " P "
+    ],
+    
+    "key":
+    {
+        "P":
+        {
+            "item": "minecraft:dye",
+            "data": 5
+        }
+    },
+    
+    "result":
+    {
+        "item": "simplemath:radical",
+        "count": 1
+    }
+}

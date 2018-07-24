@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "WWW",
+        "WMW",
+        "WWW"
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "simplemath:minus"
+        },
+        
+        "W":
+        {
+            "item": "minecraft:dye",
+            "data": 15
+        }
+    },
+    
+    "result":
+    {
+        "item": "simplemath:subtraction",
+        "count": 1
+    }
+}

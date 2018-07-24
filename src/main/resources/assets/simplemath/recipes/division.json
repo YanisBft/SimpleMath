@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "WWW",
+        "WDW",
+        "WWW"
+    ],
+    
+    "key":
+    {
+        "D":
+        {
+            "item": "simplemath:divided"
+        },
+        
+        "W":
+        {
+            "item": "minecraft:dye",
+            "data": 15
+        }
+    },
+    
+    "result":
+    {
+        "item": "simplemath:division",
+        "count": 1
+    }
+}

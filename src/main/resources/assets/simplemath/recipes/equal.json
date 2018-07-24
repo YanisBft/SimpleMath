@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "LLL",
+        "   ",
+        "LLL"
+    ],
+    
+    "key":
+    {
+        "L":
+        {
+            "item": "minecraft:dye",
+            "data": 10
+        }
+    },
+    
+    "result":
+    {
+        "item": "simplemath:equal",
+        "count": 1
+    }
+}

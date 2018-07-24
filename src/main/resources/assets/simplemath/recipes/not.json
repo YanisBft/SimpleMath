@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "YYY",
+        "  Y"
+    ],
+    
+    "key":
+    {
+        "Y":
+        {
+            "item": "minecraft:dye",
+            "data": 11
+        }
+    },
+    
+    "result":
+    {
+        "item": "simplemath:not",
+        "count": 1
+    }
+}

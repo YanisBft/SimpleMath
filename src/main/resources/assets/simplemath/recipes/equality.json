@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "WWW",
+        "WEW",
+        "WWW"
+    ],
+    
+    "key":
+    {
+        "E":
+        {
+            "item": "simplemath:equal"
+        },
+        
+        "W":
+        {
+            "item": "minecraft:dye",
+            "data": 15
+        }
+    },
+    
+    "result":
+    {
+        "item": "simplemath:equality",
+        "count": 1
+    }
+}

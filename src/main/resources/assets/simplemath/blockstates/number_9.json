@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "negative=false": { "model": "simplemath:number_9" },
+        "negative=true": { "model": "simplemath:number_9_negative" }
+    }
+}

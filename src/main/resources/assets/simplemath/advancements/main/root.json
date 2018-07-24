@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "simplemath:number_0"
+        },
+		"title": {
+            "translate": "advancements.main.root.title"
+        },
+        "description": {
+            "translate": "advancements.main.root.description"
+        },
+        "background": "simplemath:textures/blocks/output_block.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "simplemath": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+					{
+						"item": "simplemath:number_0"					
+					}
+				]
+            }
+        }
+    }
+}

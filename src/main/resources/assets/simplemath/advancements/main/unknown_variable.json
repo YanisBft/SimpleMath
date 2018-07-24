@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "item": "simplemath:letter_x"
+        },
+        "title": {
+            "translate": "advancements.main.unknown_variable.title"
+        },
+        "description": {
+            "translate": "advancements.main.unknown_variable.description"
+        }
+    },
+    "parent": "simplemath:main/basic_operation",
+    "criteria": {
+        "letter_x": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "simplemath:letter_x"
+            }
+        },
+		"letter_y": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "simplemath:letter_y"
+            }
+        },
+		"letter_z": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "simplemath:letter_z"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "letter_x",
+            "letter_y",
+            "letter_z"
+        ]
+    ]
+}

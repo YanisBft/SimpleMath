@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "WCW",
+        "CWC",
+        "CWC"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "minecraft:dye",
+            "data": 6
+        },
+        
+        "W":
+        {
+            "item": "minecraft:dye",
+            "data": 15
+        }
+    },
+    
+    "result":
+    {
+        "item": "simplemath:letter_y",
+        "count": 1
+    }
+}
