@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "up": "simplemath:blocks/less_or_equal",
+        "down": "simplemath:blocks/less_or_equal",
+        "north": "simplemath:blocks/less_or_equal",
+        "east": "simplemath:blocks/less_or_equal",
+        "south": "simplemath:blocks/greater_or_equal",
+        "west": "simplemath:blocks/greater_or_equal",
+        "particle": "simplemath:blocks/less_or_equal"
+    }
+}
