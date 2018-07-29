@@ -20,10 +20,9 @@ public class KeyInputHandler
         	if(Minecraft.getMinecraft().player.capabilities.isCreativeMode)
 			{
 				EntityPlayer player = Minecraft.getMinecraft().player;
-				if ((!((player instanceof EntityLivingBase) ? ((EntityPlayer) player).inventory.hasItemStack(new ItemStack(ModBlocks.OUTPUT_BLOCK, 1)) : false)))
+				if ((!player.inventory.hasItemStack(new ItemStack(ModBlocks.OUTPUT_BLOCK))))
 				{
-					if (player instanceof EntityPlayer)
-						((EntityPlayer) player).inventory.addItemStackToInventory(new ItemStack(ModBlocks.OUTPUT_BLOCK, 1));
+					player.addItemStackToInventory(new ItemStack(ModBlocks.OUTPUT_BLOCK, 1));
 				}
 			}
         }
