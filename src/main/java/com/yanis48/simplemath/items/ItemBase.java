@@ -28,10 +28,6 @@ public class ItemBase extends Item implements IHasModel
 		ModItems.ITEMS.add(this);
 	}
 
-	private void setTranslationKey(String name) {
-
-	}
-
 	@Override
 	public void registerModels()
 	{
