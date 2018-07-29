@@ -8,34 +8,33 @@ import net.minecraft.block.state.IBlockState;
 
 public class BlockNumber extends BlockBase
 {
+	public static final PropertyBool NEGATIVE = PropertyBool.create("negative");
+	
 	public BlockNumber(String name, Material material) {
 		super(name, material);
-		setDefaultState(this.blockState.getBaseState().withProperty(NEGATIVE, false));
+		this.setDefaultState(this.blockState.getBaseState().withProperty(NEGATIVE, Boolean.valueOf(false)));
 	}
-
-	public static final PropertyBool NEGATIVE = PropertyBool.create("negative");
 	
 	@Override
 	protected BlockStateContainer createBlockState()
 	{
-		return new BlockStateContainer(this, new IProperty[] {NEGATIVE});
+		return new BlockStateContainer(this, NEGATIVE);
 	}
 	
 	@Override
 	public IBlockState getStateFromMeta(int meta)
 	{
-		return this.getDefaultState();
+		return this.getDefaultState().withProperty(NEGATIVE, Boolean.valueOf((meta & 2) != 0));
 	}
 	
 	@Override
 	public int getMetaFromState(IBlockState state)
 	{
 		int i = 0;
-		if (((boolean)state.getValue(NEGATIVE)))
+		if (((Boolean)state.getValue(NEGATIVE).booleanValue()))
 		{
 			i |= 2;
 		}
 		return i;
-		
 	}
 }
