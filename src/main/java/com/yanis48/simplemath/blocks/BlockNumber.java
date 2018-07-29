@@ -10,8 +10,9 @@ public class BlockNumber extends BlockBase
 {
 	public BlockNumber(String name, Material material) {
 		super(name, material);
+		setDefaultState(this.blockState.getBaseState().withProperty(NEGATIVE, false));
 	}
-	
+
 	public static final PropertyBool NEGATIVE = PropertyBool.create("negative");
 	
 	@Override
@@ -23,7 +24,7 @@ public class BlockNumber extends BlockBase
 	@Override
 	public IBlockState getStateFromMeta(int meta)
 	{
-		return this.getDefaultState().withProperty(NEGATIVE, false);
+		return this.getDefaultState();
 	}
 	
 	@Override
