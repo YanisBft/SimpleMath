@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "up": "simplemath:blocks/blank",
+        "down": "simplemath:blocks/blank",
+        "north": "simplemath:blocks/imply_block_inverted",
+        "east": "simplemath:blocks/imply_block_inverted",
+        "south": "simplemath:blocks/imply_block",
+        "west": "simplemath:blocks/imply_block",
+        "particle": "simplemath:blocks/blank"
+    }
+}

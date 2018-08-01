@@ -4732,6 +4732,34 @@ public class BlockOutputBlock extends BlockBase
 		
 		}
 		
+		if (world.getBlockState(new BlockPos(i - 1, j, k)).getBlock() == ModBlocks.IMPLY_BLOCK) {
+
+			if (world.getBlockState(new BlockPos(i - 2, j, k)).getBlock() == ModBlocks.NUMBER_0) {
+
+				if (world.getBlockState(new BlockPos(i - 2, j + 1, k)).getBlock() == ModBlocks.NUMBER_0) {
+					world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_1.getDefaultState());
+				}
+				
+				if (world.getBlockState(new BlockPos(i - 2, j + 1, k)).getBlock() == ModBlocks.NUMBER_1) {
+					world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_0.getDefaultState());
+				}
+			
+			}
+			
+			if (world.getBlockState(new BlockPos(i - 2, j, k)).getBlock() == ModBlocks.NUMBER_1) {
+
+				if (world.getBlockState(new BlockPos(i - 2, j + 1, k)).getBlock() == ModBlocks.NUMBER_0) {
+					world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_1.getDefaultState());
+				}
+				
+				if (world.getBlockState(new BlockPos(i - 2, j + 1, k)).getBlock() == ModBlocks.NUMBER_1) {
+					world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_1.getDefaultState());
+				}
+			
+			}
+		
+		}
+		
 		if (world.getBlockState(new BlockPos(i, j, k - 1)).getBlock() == ModBlocks.NOT_BLOCK) {
 
 			if (world.getBlockState(new BlockPos(i, j, k - 2)).getBlock() == ModBlocks.NUMBER_0) {
@@ -4910,7 +4938,35 @@ public class BlockOutputBlock extends BlockBase
 			
 			}
 		
-		}		
+		}
+		
+		if (world.getBlockState(new BlockPos(i, j, k - 1)).getBlock() == ModBlocks.IMPLY_BLOCK) {
+
+			if (world.getBlockState(new BlockPos(i, j, k - 2)).getBlock() == ModBlocks.NUMBER_0) {
+
+				if (world.getBlockState(new BlockPos(i, j + 1, k - 2)).getBlock() == ModBlocks.NUMBER_0) {
+					world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_1.getDefaultState());
+				}
+				
+				if (world.getBlockState(new BlockPos(i, j + 1, k - 2)).getBlock() == ModBlocks.NUMBER_1) {
+					world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_0.getDefaultState());
+				}
+			
+			}
+			
+			if (world.getBlockState(new BlockPos(i, j, k - 2)).getBlock() == ModBlocks.NUMBER_1) {
+
+				if (world.getBlockState(new BlockPos(i, j + 1, k - 2)).getBlock() == ModBlocks.NUMBER_0) {
+					world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_1.getDefaultState());
+				}
+				
+				if (world.getBlockState(new BlockPos(i, j + 1, k - 2)).getBlock() == ModBlocks.NUMBER_1) {
+					world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_1.getDefaultState());
+				}
+			
+			}
+		
+		}
 	}
 	
 }

@@ -74,9 +74,10 @@ tile.xor_block.name=Bloc OU exclusif
 tile.nand_block.name=Bloc NON-ET
 tile.nor_block.name=Bloc NON-OU
 tile.xnor_block.name=Bloc NON-OU exclusif
+tile.imply_block.name=Bloc IMPLIQUE
 
 
-// ADVANCEMENTS
+// PROGRÈS
 
 advancements.main.root.title=Simple Math
 advancements.main.root.description=Tout commence avec un zéro

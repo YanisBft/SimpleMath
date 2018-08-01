@@ -74,6 +74,7 @@ tile.xor_block.name=XOR Block
 tile.nand_block.name=NAND Block
 tile.nor_block.name=NOR Block
 tile.xnor_block.name=XNOR Block
+tile.imply_block.name=IMPLY Block
 
 
 // ADVANCEMENTS

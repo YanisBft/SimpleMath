@@ -53,5 +53,6 @@ public class ModBlocks
 	public static final Block NAND_BLOCK = new BlockBase("nand_block", Material.ROCK);
 	public static final Block NOR_BLOCK = new BlockBase("nor_block", Material.ROCK);
 	public static final Block XNOR_BLOCK = new BlockBase("xnor_block", Material.ROCK);
+	public static final Block IMPLY_BLOCK = new BlockBase("imply_block", Material.ROCK);
 	
 }
