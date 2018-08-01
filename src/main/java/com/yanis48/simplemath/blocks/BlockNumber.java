@@ -24,7 +24,7 @@ public class BlockNumber extends BlockBase
 	@Override
 	public IBlockState getStateFromMeta(int meta)
 	{
-		return this.getDefaultState().withProperty(NEGATIVE, Boolean.valueOf((meta & 2) != 0));
+		return this.getDefaultState().withProperty(NEGATIVE, Boolean.valueOf((meta & 1) != 0));
 	}
 	
 	@Override
@@ -33,7 +33,7 @@ public class BlockNumber extends BlockBase
 		int i = 0;
 		if (((Boolean)state.getValue(NEGATIVE).booleanValue()))
 		{
-			i |= 2;
+			i |= 1;
 		}
 		return i;
 	}

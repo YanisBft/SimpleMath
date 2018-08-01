@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.yanis48.simplemath.blocks.BlockBase;
-import com.yanis48.simplemath.blocks.BlockLogic;
 import com.yanis48.simplemath.blocks.BlockNumber;
 import com.yanis48.simplemath.blocks.BlockOutputBlock;
 
