@@ -14,9 +14,9 @@ import net.minecraft.item.ItemBlock;
 
 public class BlockBase extends Block implements IHasModel
 {
-	public BlockBase(String name, Material material)
+	public BlockBase(String name)
 	{
-		super(material);
+		super(Material.ROCK);
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(Main.SIMPLEMATH);

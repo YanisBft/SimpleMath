@@ -10,8 +10,8 @@ public class BlockNumber extends BlockBase
 {
 	public static final PropertyBool NEGATIVE = PropertyBool.create("negative");
 	
-	public BlockNumber(String name, Material material) {
-		super(name, material);
+	public BlockNumber(String name) {
+		super(name);
 		this.setDefaultState(this.blockState.getBaseState().withProperty(NEGATIVE, Boolean.valueOf(false)));
 	}
 	

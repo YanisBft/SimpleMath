@@ -13,8 +13,8 @@ import net.minecraft.world.World;
 public class BlockOutputBlock extends BlockBase
 {
 
-	public BlockOutputBlock(String name, Material material) {
-		super(name, material);
+	public BlockOutputBlock(String name) {
+		super(name);
 	}
 	
 	@Override
