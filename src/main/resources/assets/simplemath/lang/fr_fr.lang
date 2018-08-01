@@ -1,4 +1,4 @@
-// GÉNÉRAL
+// GÃ‰NÃ‰RAL
 
 itemGroup.simplemath=Simple Math
 
@@ -9,9 +9,9 @@ message.error_0=Impossible de diviser par 0 !
 
 // OBJETS
 
-item.generic.operation=Opération :
+item.generic.operation=OpÃ©ration :
 item.generic.logic_gate=Porte logique :
-item.generic.when_used=Quand il est utilisé :
+item.generic.when_used=Quand il est utilisÃ© :
 
 item.plus.name=Plus
 item.plus.use=Ajoute une valeur de 1
@@ -19,13 +19,13 @@ item.minus.name=Moins
 item.minus.use=Soustrait une valeur de 1
 item.times.name=Fois
 item.times.use=Multiplie par 0
-item.divided.name=Divisé
-item.divided.use=Divise par lui-même
+item.divided.name=DivisÃ©
+item.divided.use=Divise par lui-mÃªme
 item.radical.name=Radical
-item.radical.use=Fait sa racine carrée
+item.radical.use=Fait sa racine carrÃ©e
 
-item.equal.name=Égal
-item.equal.use=Garde la même valeur
+item.equal.name=Ã‰gal
+item.equal.use=Garde la mÃªme valeur
 
 item.not.name=NON
 item.and.name=ET
@@ -58,14 +58,14 @@ tile.addition.name=Addition
 tile.subtraction.name=Soustraction
 tile.multiplication.name=Multiplication
 tile.division.name=Division
-tile.square_root.name=Racine carrée
+tile.square_root.name=Racine carrÃ©e
 
-tile.equality.name=Égalité
-tile.inequality.name=Inégalité
-tile.greater.name=Supérieur
-tile.greater_or_equal.name=Supérieur ou égal
-tile.less.name=Inférieur
-tile.less_or_equal.name=Inférieur ou égal
+tile.equality.name=Ã‰galitÃ©
+tile.inequality.name=InÃ©galitÃ©
+tile.greater.name=SupÃ©rieur
+tile.greater_or_equal.name=SupÃ©rieur ou Ã©gal
+tile.less.name=InfÃ©rieur
+tile.less_or_equal.name=InfÃ©rieur ou Ã©gal
 
 tile.not_block.name=Bloc NON
 tile.and_block.name=Bloc ET
@@ -77,19 +77,19 @@ tile.xnor_block.name=Bloc NON-OU exclusif
 tile.imply_block.name=Bloc IMPLIQUE
 
 
-// PROGRÈS
+// PROGRÃˆS
 
 advancements.main.root.title=Simple Math
-advancements.main.root.description=Tout commence avec un zéro
+advancements.main.root.description=Tout commence avec un zÃ©ro
 advancements.main.binary.title=Binaire
 advancements.main.binary.description=Fabriquer un NON
-advancements.main.logic_master.title=Maître de la logique
+advancements.main.logic_master.title=MaÃ®tre de la logique
 advancements.main.logic_master.description=Utiliser tous les blocs de logique
-advancements.main.basic_operation.title=Opération de base
+advancements.main.basic_operation.title=OpÃ©ration de base
 advancements.main.basic_operation.description=Fabriquer un Plus
-advancements.main.mathematician.title=Mathématicien confirmé
-advancements.main.mathematician.description=Créer tous les blocs opérateurs
+advancements.main.mathematician.title=MathÃ©maticien confirmÃ©
+advancements.main.mathematician.description=CrÃ©er tous les blocs opÃ©rateurs
 advancements.main.unknown_variable.title=Variable inconnue
-advancements.main.unknown_variable.description=Utiliser une lettre dans une opération
+advancements.main.unknown_variable.description=Utiliser une lettre dans une opÃ©ration
 advancements.main.infinity.title=L'infini a une fin
 advancements.main.infinity.description=Placer un bloc Pi dans l'End
