@@ -31,6 +31,7 @@ item.not.name=NOT
 item.and.name=AND
 item.or.name=OR
 item.xor.name=XOR
+item.imply.name=IMPLY
 
 
 // BLOCKS

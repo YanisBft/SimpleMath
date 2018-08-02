@@ -31,6 +31,7 @@ item.not.name=NON
 item.and.name=ET
 item.or.name=OU
 item.xor.name=OU exclusif
+item.imply.name=IMPLIQUE
 
 
 // BLOCS

@@ -30,5 +30,6 @@ public class ModItems {
 	public static final Item AND = new ItemLogic("and");
 	public static final Item OR = new ItemLogic("or");
 	public static final Item XOR = new ItemLogic("xor");
+	public static final Item IMPLY = new ItemLogic("imply");
 
 }

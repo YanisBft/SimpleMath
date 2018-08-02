@@ -54,6 +54,12 @@
             "conditions": {
                 "block": "simplemath:xnor_block"
             }
+        },
+        "imply_block": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "simplemath:imply_block"
+            }
         }
     }
 }
