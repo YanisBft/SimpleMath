@@ -12,14 +12,14 @@
     {
         "C":
         {
-            "item": "minecraft:dye",
-            "data": 6
+            "type": "forge:ore_dict",
+			"ore": "dyeCyan"
         },
         
         "W":
         {
-            "item": "minecraft:dye",
-            "data": 15
+            "type": "forge:ore_dict",
+			"ore": "dyeWhite"
         }
     },
     

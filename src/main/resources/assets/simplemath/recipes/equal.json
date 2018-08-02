@@ -12,8 +12,8 @@
     {
         "L":
         {
-            "item": "minecraft:dye",
-            "data": 10
+            "type": "forge:ore_dict",
+			"ore": "dyeLime"
         }
     },
     

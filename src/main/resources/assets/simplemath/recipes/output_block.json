@@ -12,8 +12,8 @@
     {
         "C":
         {
-            "item": "minecraft:dye",
-            "data": 6
+            "type": "forge:ore_dict",
+			"ore": "dyeCyan"
         }
     },
     

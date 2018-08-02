@@ -17,8 +17,8 @@
         
         "W":
         {
-            "item": "minecraft:dye",
-            "data": 15
+            "type": "forge:ore_dict",
+			"ore": "dyeWhite"
         }
     },
     
