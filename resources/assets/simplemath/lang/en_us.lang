@@ -1,0 +1,96 @@
+// GENERAL
+
+itemGroup.simplemath=Simple Math
+
+key.output_block=Get Output Block
+
+message.error_0=Can't divide by 0!
+
+
+// ITEMS
+
+item.generic.operation=Operation:
+item.generic.logic_gate=Logic gate:
+item.generic.when_used=When used:
+
+item.plus.name=Plus
+item.plus.use=Adds a value of 1
+item.minus.name=Minus
+item.minus.use=Subtracts a value of 1
+item.times.name=Times
+item.times.use=Multiplies by 0
+item.divided.name=Divided
+item.divided.use=Divides by itself
+item.radical.name=Radical
+item.radical.use=Does its square root
+
+item.equal.name=Equal
+item.equal.use=Keeps the same value
+
+item.not.name=NOT
+item.and.name=AND
+item.or.name=OR
+item.xor.name=XOR
+item.imply.name=IMPLY
+
+
+// BLOCKS
+
+tile.output_block.name=Output Block
+
+tile.number_0.name=Number 0
+tile.number_1.name=Number 1
+tile.number_2.name=Number 2
+tile.number_3.name=Number 3
+tile.number_4.name=Number 4
+tile.number_5.name=Number 5
+tile.number_6.name=Number 6
+tile.number_7.name=Number 7
+tile.number_8.name=Number 8
+tile.number_9.name=Number 9
+
+tile.letter_x.name=Letter X
+tile.letter_y.name=Letter Y
+tile.letter_z.name=Letter Z
+tile.delta.name=Delta
+tile.pi.name=Pi
+
+tile.addition.name=Addition
+tile.subtraction.name=Subtraction
+tile.multiplication.name=Multiplication
+tile.division.name=Division
+tile.square_root.name=Square Root
+
+tile.equality.name=Equality
+tile.inequality.name=Inequality
+tile.greater.name=Greater
+tile.greater_or_equal.name=Greater or Equal
+tile.less.name=Less
+tile.less_or_equal.name=Less or Equal
+
+tile.not_block.name=NOT Block
+tile.and_block.name=AND Block
+tile.or_block.name=OR Block
+tile.xor_block.name=XOR Block
+tile.nand_block.name=NAND Block
+tile.nor_block.name=NOR Block
+tile.xnor_block.name=XNOR Block
+tile.imply_block.name=IMPLY Block
+
+
+// ADVANCEMENTS
+
+advancements.main.root.title=Simple Math
+advancements.main.root.description=Everything starts with a zero
+advancements.main.binary.title=Binary
+advancements.main.binary.description=Craft a NOT item
+advancements.main.logic_master.title=Logic Master
+advancements.main.logic_master.description=Use all logic blocks
+advancements.main.basic_operation.title=Basic Operation
+advancements.main.basic_operation.description=Craft a Plus item
+advancements.main.mathematician.title=Confirmed Mathematician
+advancements.main.mathematician.description=Create all operator blocks
+advancements.main.unknown_variable.title=Unknown Variable
+advancements.main.unknown_variable.description=Use a letter in a operation
+advancements.main.infinity.title=Infinity Has An End
+advancements.main.infinity.description=Place a Pi block in the End
