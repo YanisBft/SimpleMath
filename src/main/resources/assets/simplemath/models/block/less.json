@@ -1,12 +1,13 @@
 {
-    "parent": "block/cube",
-    "textures": {
-        "up": "simplemath:blocks/less",
-        "down": "simplemath:blocks/less",
-        "north": "simplemath:blocks/less",
-        "east": "simplemath:blocks/less",
-        "south": "simplemath:blocks/greater",
-        "west": "simplemath:blocks/greater",
-        "particle": "simplemath:blocks/less"
-    }
+	"parent": "block/cube",
+	"textures":
+	{
+		"up": "simplemath:blocks/less",
+		"down": "simplemath:blocks/less",
+		"north": "simplemath:blocks/less",
+		"east": "simplemath:blocks/less",
+		"south": "simplemath:blocks/less",
+		"west": "simplemath:blocks/less",
+		"particle": "simplemath:blocks/less"
+	}
 }
