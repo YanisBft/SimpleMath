@@ -3,8 +3,8 @@
     "textures": {
         "up": "simplemath:blocks/blank",
         "down": "simplemath:blocks/blank",
-        "north": "simplemath:blocks/nand_block_inverted",
-        "east": "simplemath:blocks/nand_block_inverted",
+        "north": "simplemath:blocks/nand_block",
+        "east": "simplemath:blocks/nand_block",
         "south": "simplemath:blocks/nand_block",
         "west": "simplemath:blocks/nand_block",
         "particle": "simplemath:blocks/blank"
