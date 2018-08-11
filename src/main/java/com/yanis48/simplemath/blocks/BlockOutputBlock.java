@@ -396,6 +396,42 @@ public class BlockOutputBlock extends BlockBase
 						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_0.getDefaultState());
 					}
 					
+					if (b2 == ModBlocks.NUMBER_1) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_1.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_2) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_2.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_3) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_3.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_4) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_4.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_5) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_5.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_6) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_6.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_7) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_7.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_8) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_8.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_9) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_9.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
 				}
 
 				if (b4 == ModBlocks.NUMBER_1) {
@@ -406,6 +442,38 @@ public class BlockOutputBlock extends BlockBase
 					
 					if (b2 == ModBlocks.NUMBER_1) {
 						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_0.getDefaultState());
+					}
+					
+					if (b2 == ModBlocks.NUMBER_2) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_1.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_3) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_2.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_4) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_3.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_5) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_4.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_6) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_5.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_7) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_6.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_8) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_7.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_9) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_8.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
 					}
 
 				}
@@ -422,6 +490,34 @@ public class BlockOutputBlock extends BlockBase
 					
 					if (b2 == ModBlocks.NUMBER_2) {
 						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_0.getDefaultState());
+					}
+					
+					if (b2 == ModBlocks.NUMBER_3) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_1.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_4) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_2.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_5) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_3.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_6) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_4.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_7) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_5.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_8) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_6.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_9) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_7.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
 					}
 
 				}
@@ -442,6 +538,30 @@ public class BlockOutputBlock extends BlockBase
 					
 					if (b2 == ModBlocks.NUMBER_3) {
 						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_0.getDefaultState());
+					}
+					
+					if (b2 == ModBlocks.NUMBER_4) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_1.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_5) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_2.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_6) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_3.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_7) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_4.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_8) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_5.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_9) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_6.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
 					}
 
 				}
@@ -466,6 +586,26 @@ public class BlockOutputBlock extends BlockBase
 					
 					if (b2 == ModBlocks.NUMBER_4) {
 						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_0.getDefaultState());
+					}
+					
+					if (b2 == ModBlocks.NUMBER_5) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_1.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_6) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_2.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_7) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_3.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_8) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_4.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_9) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_5.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
 					}
 
 				}
@@ -494,6 +634,22 @@ public class BlockOutputBlock extends BlockBase
 					
 					if (b2 == ModBlocks.NUMBER_5) {
 						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_0.getDefaultState());
+					}
+					
+					if (b2 == ModBlocks.NUMBER_6) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_1.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_7) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_2.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_8) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_3.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_9) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_4.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
 					}
 
 				}
@@ -526,6 +682,18 @@ public class BlockOutputBlock extends BlockBase
 					
 					if (b2 == ModBlocks.NUMBER_6) {
 						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_0.getDefaultState());
+					}
+					
+					if (b2 == ModBlocks.NUMBER_7) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_1.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_8) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_2.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_9) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_3.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
 					}
 
 				}
@@ -562,6 +730,14 @@ public class BlockOutputBlock extends BlockBase
 					
 					if (b2 == ModBlocks.NUMBER_7) {
 						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_0.getDefaultState());
+					}
+					
+					if (b2 == ModBlocks.NUMBER_8) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_1.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
+					}
+					
+					if (b2 == ModBlocks.NUMBER_9) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_2.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
 					}
 
 				}
@@ -602,6 +778,10 @@ public class BlockOutputBlock extends BlockBase
 					
 					if (b2 == ModBlocks.NUMBER_8) {
 						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_0.getDefaultState());
+					}
+					
+					if (b2 == ModBlocks.NUMBER_9) {
+						world.setBlockState(new BlockPos(i, j, k), ModBlocks.NUMBER_1.getDefaultState().withProperty(BlockNumber.NEGATIVE, true));
 					}
 
 				}
