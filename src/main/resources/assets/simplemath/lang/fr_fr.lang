@@ -54,6 +54,7 @@ tile.letter_y.name=Lettre Y
 tile.letter_z.name=Lettre Z
 tile.delta.name=Delta
 tile.pi.name=Pi
+tile.sigma.name=Sigma
 
 tile.addition.name=Addition
 tile.subtraction.name=Soustraction

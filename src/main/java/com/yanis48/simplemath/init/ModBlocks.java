@@ -32,6 +32,7 @@ public class ModBlocks
 	public static final Block LETTER_Z = new BlockBase("letter_z");
 	public static final Block DELTA = new BlockBase("delta");
 	public static final Block PI = new BlockBase("pi");
+	public static final Block SIGMA = new BlockBase("sigma");
 	
 	public static final Block ADDITION = new BlockBase("addition");
 	public static final Block SUBTRACTION = new BlockBase("subtraction");
