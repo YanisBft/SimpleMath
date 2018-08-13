@@ -1,5 +1,6 @@
 {
     "variants": {
-        "normal": { "model": "simplemath:nand_block" }
+        "direction=right": { "model": "simplemath:nand_block" },
+        "direction=left": { "model": "simplemath:nand_block_left" }
     }
 }

@@ -1,5 +1,6 @@
 {
     "variants": {
-        "normal": { "model": "simplemath:xnor_block" }
+        "direction=right": { "model": "simplemath:xnor_block" },
+        "direction=left": { "model": "simplemath:xnor_block_left" }
     }
 }

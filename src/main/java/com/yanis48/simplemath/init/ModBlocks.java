@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.yanis48.simplemath.blocks.BlockBase;
+import com.yanis48.simplemath.blocks.BlockLogic;
 import com.yanis48.simplemath.blocks.BlockNumber;
 import com.yanis48.simplemath.blocks.BlockOutputBlock;
 
@@ -47,13 +48,13 @@ public class ModBlocks
 	public static final Block LESS = new BlockBase("less");
 	public static final Block LESS_OR_EQUAL = new BlockBase("less_or_equal");
 	
-	public static final Block NOT_BLOCK = new BlockBase("not_block");
-	public static final Block AND_BLOCK = new BlockBase("and_block");
-	public static final Block OR_BLOCK = new BlockBase("or_block");
-	public static final Block XOR_BLOCK = new BlockBase("xor_block");
-	public static final Block NAND_BLOCK = new BlockBase("nand_block");
-	public static final Block NOR_BLOCK = new BlockBase("nor_block");
-	public static final Block XNOR_BLOCK = new BlockBase("xnor_block");
-	public static final Block IMPLY_BLOCK = new BlockBase("imply_block");
+	public static final Block NOT_BLOCK = new BlockLogic("not_block");
+	public static final Block AND_BLOCK = new BlockLogic("and_block");
+	public static final Block OR_BLOCK = new BlockLogic("or_block");
+	public static final Block XOR_BLOCK = new BlockLogic("xor_block");
+	public static final Block NAND_BLOCK = new BlockLogic("nand_block");
+	public static final Block NOR_BLOCK = new BlockLogic("nor_block");
+	public static final Block XNOR_BLOCK = new BlockLogic("xnor_block");
+	public static final Block IMPLY_BLOCK = new BlockLogic("imply_block");
 	
 }

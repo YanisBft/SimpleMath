@@ -1,0 +1,20 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "blank": "simplemath:blocks/blank",
+        "particle": "simplemath:blocks/blank"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "up":    { "uv": [ 0,  0, 16, 16 ], "texture": "#blank", "cullface": "up" },
+                "down":  { "uv": [ 0,  0, 16, 16 ], "texture": "#blank", "cullface": "down" },
+                "north": { "uv": [ 0,  0, 16, 16 ], "texture": "#pattern", "cullface": "north", "rotation": 180 },
+                "south": { "uv": [ 0,  0, 16, 16 ], "texture": "#pattern", "cullface": "south", "rotation": 180 },
+                "east":  { "uv": [ 0,  0, 16, 16 ], "texture": "#pattern", "cullface": "east", "rotation": 180 },
+                "west":  { "uv": [ 0,  0, 16, 16 ], "texture": "#pattern", "cullface": "west", "rotation": 180 }
+            }
+        }
+    ]
+}

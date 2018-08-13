@@ -1,0 +1,6 @@
+{
+    "parent": "simplemath:block/logic_block",
+    "textures": {
+        "pattern": "simplemath:blocks/xor_block"
+    }
+}
