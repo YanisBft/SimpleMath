@@ -1,6 +1,5 @@
 package com.yanis48.simplemath;
 
-import com.yanis48.simplemath.init.ModKeybinds;
 import com.yanis48.simplemath.proxy.CommonProxy;
 import com.yanis48.simplemath.util.Reference;
 
@@ -30,9 +29,7 @@ public class Main {
 	
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event)
-	{
-		ModKeybinds.init();
-		
+	{	
 		MinecraftForge.EVENT_BUS.register(new KeyInputHandler());
 	}
 	
