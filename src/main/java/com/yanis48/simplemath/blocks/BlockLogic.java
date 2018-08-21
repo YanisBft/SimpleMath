@@ -28,7 +28,7 @@ public class BlockLogic extends BlockBase
 	
 	public IBlockState getStateForPlacement(World world, BlockPos pos, EnumFacing facing, float hitX, float hitY, float hitZ, int meta, EntityLivingBase placer)
     {
-		if (placer.getHorizontalFacing() == EnumFacing.SOUTH || placer.getHorizontalFacing() == EnumFacing.EAST)
+		if (placer.getHorizontalFacing() == facing.SOUTH || placer.getHorizontalFacing() == facing.EAST)
 		{
 			return this.getDefaultState().withProperty(DIRECTION, LogicDirection.LEFT);
 		}
