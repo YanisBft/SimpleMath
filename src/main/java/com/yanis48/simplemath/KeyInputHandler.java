@@ -6,14 +6,14 @@ import com.yanis48.simplemath.init.ModBlocks;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.settings.KeyBinding;
-import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
+import net.minecraft.server.MinecraftServer;
+import net.minecraft.world.World;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
+import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.InputEvent.KeyInputEvent;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class KeyInputHandler
 {
@@ -26,13 +26,22 @@ public class KeyInputHandler
 	
     @SubscribeEvent
     public void onKeyInput(KeyInputEvent event)
-    {
+    {    	
         if (output_block.isPressed() && Minecraft.getMinecraft().player.capabilities.isCreativeMode)
         {
-			EntityPlayer player = Minecraft.getMinecraft().player;
-			if ((!player.inventory.hasItemStack(new ItemStack(ModBlocks.OUTPUT_BLOCK))))
+        	EntityPlayer player = Minecraft.getMinecraft().player;
+        	MinecraftServer server = FMLCommonHandler.instance().getMinecraftServerInstance();
+        	World world = server.worlds[0];
+        	
+        	EntityPlayer playerServer = null;
+			for (EntityPlayer playerMP : world.playerEntities) {
+				if (playerMP.getName().equals(player.getName()))
+					playerServer = playerMP;
+			}
+			
+			if ((!playerServer.inventory.hasItemStack(new ItemStack(ModBlocks.OUTPUT_BLOCK))))
 			{
-				player.addItemStackToInventory(new ItemStack(ModBlocks.OUTPUT_BLOCK, 1));
+				playerServer.addItemStackToInventory(new ItemStack(ModBlocks.OUTPUT_BLOCK, 1));
 			}
         }
     }
