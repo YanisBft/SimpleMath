@@ -9,7 +9,7 @@ import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.world.World;
+import net.minecraft.server.management.PlayerList;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -30,11 +30,11 @@ public class KeyInputHandler
         if (output_block.isPressed() && Minecraft.getMinecraft().player.capabilities.isCreativeMode)
         {
         	EntityPlayer player = Minecraft.getMinecraft().player;
-        	MinecraftServer server = FMLCommonHandler.instance().getMinecraftServerInstance();
-        	World world = server.worlds[0];
-        	
         	EntityPlayer playerServer = null;
-			for (EntityPlayer playerMP : world.playerEntities) {
+        	MinecraftServer server = FMLCommonHandler.instance().getMinecraftServerInstance();
+        	PlayerList playerList = server.getPlayerList();
+        	
+			for (EntityPlayer playerMP : playerList.getPlayers()) {
 				if (playerMP.getName().equals(player.getName()))
 					playerServer = playerMP;
 			}
