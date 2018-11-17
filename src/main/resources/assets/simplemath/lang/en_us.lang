@@ -64,6 +64,7 @@ tile.square_root.name=Square Root
 
 tile.equality.name=Equality
 tile.inequality.name=Inequality
+tile.approximation.name=Approximation
 tile.greater.name=Greater
 tile.greater_or_equal.name=Greater or Equal
 tile.less.name=Less

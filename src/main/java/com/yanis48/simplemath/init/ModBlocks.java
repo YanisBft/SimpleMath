@@ -43,6 +43,7 @@ public class ModBlocks
 	
 	public static final Block EQUALITY = new BlockBase("equality");
 	public static final Block INEQUALITY = new BlockBase("inequality");
+	public static final Block APPROXIMATION = new BlockBase("approximation");
 	public static final Block GREATER = new BlockBase("greater");
 	public static final Block GREATER_OR_EQUAL = new BlockBase("greater_or_equal");
 	public static final Block LESS = new BlockBase("less");

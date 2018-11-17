@@ -64,6 +64,7 @@ tile.square_root.name=Racine carrée
 
 tile.equality.name=Égalité
 tile.inequality.name=Inégalité
+tile.approximation.name=Approximation
 tile.greater.name=Supérieur
 tile.greater_or_equal.name=Supérieur ou égal
 tile.less.name=Inférieur
