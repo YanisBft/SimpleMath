@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "simplemath:number_0" }
+        "normal": { "model": "simplemath:number_0/normal" }
     }
 }

@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "simplemath:blocks/number_9/normal"
+   }
+}

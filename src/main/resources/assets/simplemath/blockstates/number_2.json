@@ -1,6 +1,6 @@
 {
     "variants": {
-        "negative=false": { "model": "simplemath:number_2" },
-        "negative=true": { "model": "simplemath:number_2_negative" }
+        "negative=false": { "model": "simplemath:number_2/normal" },
+        "negative=true": { "model": "simplemath:number_2/negative" }
     }
 }
